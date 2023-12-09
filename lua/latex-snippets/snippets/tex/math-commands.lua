@@ -4,7 +4,7 @@ local t = ls.text_node
 local i = ls.insert_node
 local a = ls.extend_decorator.apply(s, { snippetType = "autosnippet" })
 
-local tex = require("latex-snippets.snippets.utils.conditions")
+local tex = require("latex-snippets.snippets.tex.utils.conditions")
 
 local M = {
     a({ trig = "sr", wordTrig = false },
