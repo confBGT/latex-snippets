@@ -8,7 +8,7 @@ local tex = require("latex-snippets.snippets.utils.conditions")
 
 local M = {
     a({ trig = "sr", wordTrig = false },
-        { t("^2") }
+        { t("^2") },
         { condition = tex.math, show_condition = tex.math })
 }
 
