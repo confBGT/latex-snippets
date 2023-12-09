@@ -1,6 +1,7 @@
 local ls = require("luasnip")
 local s = ls.snippet
 local i = ls.insert_node
+local rep = require("luasnip.extras").rep
 local fmta = require("luasnip.extras.fmt").fmta
 
 local M = {
@@ -13,7 +14,7 @@ local M = {
         \begin{<>}
         \end{<>}
         ]],
-        { i(1), i(1) }
+        { i(1), rep(1) }
         )
     )
 }
